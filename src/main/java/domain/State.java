@@ -5,7 +5,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "estado")
-public class State {
+public class State implements BaseEntity{
 
     @Id
     @GeneratedValue(generator = "estado_seq",

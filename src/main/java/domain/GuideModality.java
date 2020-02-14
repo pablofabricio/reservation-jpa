@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "guia_modalidade")
-public class GuideModality {
+public class GuideModality implements BaseEntity {
 
     @Id()
     @GeneratedValue(generator = "guia_modalide_seq",
